@@ -1,0 +1,106 @@
+div.Jarak{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+div.btn-kontak{
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+ @media screen and (min-width:300px){
+     .leaflet-container {
+         height: 500px;
+         width: 600px;
+         max-width: 100%;
+         max-height: auto;
+     }
+ }
+
+ @media screen and (min-width:600px){
+    .leaflet-container {
+        height: 600px;
+        width: 700px;
+        max-width: 100%;
+        max-height: auto;
+    }
+}
+
+ @media screen and (min-width:800px){
+    .leaflet-container {
+        height: 700px;
+        width: 100%;
+        max-width: 100%;
+        max-height: auto;
+    }
+ }
+
+    div.chart{
+        width:100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 650px){
+        div.chart{
+            width:100%;
+            height: 900px;
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+        div.chart{
+            width:100%;
+            height: 900px;
+        }
+    }
+
+    @media only screen and (max-width: 300px){
+        div.chart{
+            width:100%;
+            height: 900px;
+        }
+    }
+
+@media screen and (max-width: 500px){
+    button.btn-export{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    input.search{
+        margin-left: 120px;
+        margin-bottom: 20px;
+        width: 255px;
+    }
+    b.count{
+        font-size:40px;
+    }
+    b.konfirmasi{
+        position: relative;
+        top: 40;
+    }
+    b.dalamperawatan{
+        position: relative;
+        top: 80;
+        margin-right: 200px;
+    }
+    b.isolasimandiri{
+        margin-left: 200px;
+        position: relative;
+        bottom: 10;
+    }
+    b.sembuh{
+        top: 40;
+        position: relative;
+        margin-right: 200px;
+    }
+    b.meninggal{
+        margin-left: 200px;
+        position: relative;
+        bottom: 50;
+    }
+    div.contac{
+        margin-top: 20px;
+    }
+}

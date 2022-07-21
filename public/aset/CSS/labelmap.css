@@ -1,0 +1,18 @@
+.leaflet-tooltip.label_in_map{
+    background:none;
+    border:0;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 8px;
+    text-align: center;
+}
+
+.leaflet-tooltip.label_in_map2{
+    background:none;
+    border:0;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 13px;
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width:900px) {
+    h3.title{
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    h3.title{
+        margin:20px 20px 20px 20px;
+    }
+    button.btn-export{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    input.search{
+        width: 375px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}

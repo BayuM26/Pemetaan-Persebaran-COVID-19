@@ -1,0 +1,712 @@
+.informationCOVID{
+    margin: 50px 20px 100px 20px;
+    min-height:500px
+}
+.informationGejala{
+    margin: 50px 20px 100px 20px;
+    min-height:400px
+}
+
+.informationPenularan{
+    margin: 50px 20px 100px 20px;
+    min-height:400px
+}
+
+.informationPencegahan{
+    margin: 50px 20px 100px 20px;
+    min-height:700px
+}
+
+.text{
+    font-family: arial;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.gejala-container{
+    position: relative;
+    background-color: rgb(223, 221, 221);
+    border-radius: 30px;
+}
+
+.penularan-container{
+    position: relative;
+    background-color: rgb(179, 179, 179);
+    border-radius: 20px;
+}
+
+.pencegahan-container{
+    position: relative;
+    background-color: rgb(223, 221, 221);
+    border-radius: 30px;
+}
+
+.gejala{
+    position: absolute;
+    margin-left: 50px;
+}
+
+.penularan{
+    position: absolute;
+    margin-left: 50px;
+}
+
+.pencegahan{
+    position: absolute;
+    margin-left: 50px;
+}
+
+@font-face{
+    font-family:"hyw";
+    src: url('../FONT/Regular.ttf');
+}
+
+h2.batuk{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 100px;
+    position:absolute;
+    margin-top:200px;
+    margin-left:-540px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.demam{
+    font-weight: bold;
+    margin-top: 175px;
+    position:absolute;
+    margin-left: -300px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.sakitkepala{
+    font-weight: bold;
+    position:absolute;
+    font-size: 30px;
+    margin-top: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.sakittenggorokan{
+    font-weight: bold;
+    position:absolute;
+    font-size: 30px;
+    margin-left: 280px;
+    margin-top:135px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.makananmentah{
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    margin-left: -200px;
+    margin-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.kotaklangsung{
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    margin-top:200px;
+    margin-left: -630px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.hewan{
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    margin-left: 340px;
+    margin-top: 165px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.cuciTangan{
+    font-weight: bold;
+    margin-top:190px;
+    margin-left: -470px;
+    position:absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.masker{
+    font-weight: bold;
+    margin-top: 490px;
+    margin-left: -470px;
+    position:absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.hindariKontaktKangsung{
+    font-weight: bold;
+    margin-top:170px;
+    margin-left:180px;
+    position:absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.tutupiHidungDanMulut{
+    font-weight: bold;
+    margin-top:460px;
+    margin-left: 180px;
+    position:absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_Covid{
+    width: 100%;
+    height: auto;
+}
+
+.img_Covid_batuk{
+    width: 25%;
+    height: auto;
+    position:absolute;  
+}
+
+.img_Covid_demam{
+    width: 25%;
+    margin-left:300px;
+    height: auto;
+    position:absolute;
+}
+
+.img_Covid_sk{
+    width: 25%;
+    margin-left:600px;
+    height: auto;
+    position:absolute;
+    margin-top: -35px;
+}
+
+.img_Covid_st{
+    width: 25%;
+    margin-top: -50px;
+    margin-left:940px;
+    height: auto;
+    position:absolute;
+}
+
+.img_Covid_salaman{
+    width: 25%;
+    height: auto;
+    position:absolute;
+}
+
+.img_Covid_dg{
+    width: 25%;
+    height: auto;
+    margin-left:500px;
+    position:absolute;
+}
+
+.img_Covid_kh{
+    width: 25%;
+    height: auto;
+    margin-top: -40px;
+    margin-left:950px;
+    position:absolute;
+}
+
+.img_Covid_ct{
+    margin-left: 200px;
+    width: 25%;
+    height: auto;
+    position:absolute;
+}
+
+.img_Covid_m{
+    width: 23%;
+    margin-left: 200px;
+    margin-top:300px;
+    height: auto;
+    position:absolute;
+}
+
+.img_Covid_kl{
+    margin-left: 850px;
+    margin-top:-20px;
+    width: 25%;
+    height: auto;
+    position:absolute;
+}
+
+.img_Covid_bersin{
+    margin-left: 850px;
+    margin-top:260px;
+    width: 25%;
+    height: auto;
+    position:absolute;
+}
+
+#buttonup{
+    border-radius: 50px;
+    display: none;
+    font-size:30px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+@media screen and (max-width:900px){
+    /* apaitu covid */
+        .informationCOVID{
+            margin: 50px 20px 50px 20px;
+            min-height:200px;
+        }
+
+        .img_Covid{
+            width: 125%;
+            height: auto;
+        }
+
+        .text{
+            font-family: arial;
+            font-size: 12px;
+            text-align: justify;
+        }
+
+        .judulcovid{
+            text-align: center;
+            font-size: 24px;
+        }
+    /* end apa itu covid */
+
+    /* gejala umum COVID-19 */
+
+        .title2{
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .informationGejala{
+            margin: 50px 20px 100px 20px;
+            min-height:500px
+        }
+
+        .img_Covid_batuk{
+            width: 35%;
+            margin-top: 25px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.batuk{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 160px;
+            margin-left: 75px;
+            position:absolute;
+        }
+
+        .img_Covid_demam{
+            width: 40%;
+            height: auto;
+            margin-left: 330px;
+            position:absolute;
+        }
+
+        h2.demam{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 140px;
+            margin-left: 380px;
+            position:absolute;
+        }
+
+        .img_Covid_sk{
+            width: 40%;
+            height: auto;
+            margin-left: -4px;
+            margin-top:165px;
+            position:absolute;
+        }
+
+        h2.sakitkepala{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 320px;
+            margin-left: 40px;
+            position:absolute;
+        }
+
+        .img_Covid_st{
+            width: 40%;
+            height: auto;
+            margin-top:160px;
+            margin-left: 345px;
+            position:absolute;
+        }
+
+        h2.sakittenggorokan{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 300px;
+            margin-left: 355px;
+            position:absolute;
+        }
+    /* end gejala umum COVID-19 */
+
+    /* penularan COVID */
+        .informationPenularan{
+            margin: 50px 20px 100px 20px;
+            min-height:300px
+        }
+        .title3{
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .img_Covid_salaman{
+            width: 35%;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.kotaklangsung{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            margin-left: 20px;
+            margin-top: 120px;
+        }
+
+        .img_Covid_dg{
+            width: 30%;
+            margin-top:40px;
+            margin-left:230px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.makananmentah{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            margin-left: 190px;
+            margin-top: 140px;
+        }
+
+        .img_Covid_kh{
+            width: 30%;
+            margin-top: -25px;
+            margin-left: 420px;
+            height: auto;
+            position:absolute;
+        }
+        
+        h2.hewan{
+            font-size: 20px;
+            margin-left: 430px;
+            margin-top: 85px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    /* end penularan COVID */
+
+    /* pencegahan covid-19 */
+        .informationPencegahan{
+            margin: 50px 20px 100px 20px;
+            min-height:500px
+        }
+        .title4{
+            text-align: center;
+            font-size: 24px; 
+        }
+
+        .img_Covid_ct{
+            width: 35%;
+            margin-left: 0px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.cuciTangan{
+            font-size: 20px;
+            margin-left: 40px;
+            margin-top: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .img_Covid_m{
+            width: 35%;
+            margin-left:400px;
+            margin-top:10px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.masker{
+            font-size: 20px;
+            margin-top: 140px;
+            margin-left: 435px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .img_Covid_kl{
+            width: 35%;
+            margin-left: 0px;
+            margin-top: 180px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.hindariKontaktKangsung{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 300px;
+            margin-left: 40px;
+        }
+
+        .img_Covid_bersin{
+            width: 35%;
+            margin-left: 400px;
+            margin-top:190px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.tutupiHidungDanMulut{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 390px;
+            margin-top:320px;
+        }
+    /* end pencegahan covid-19 */
+}
+
+@media screen and (max-width:500px){
+    /* apaitu covid */
+        .informationCOVID{
+            margin: 50px 20px 50px 20px;
+            min-height:200px;
+        }
+
+        .img_Covid{
+            width: 50%;
+            height: auto;
+            margin-left: 80px;
+        }
+
+        .text{
+            font-family: arial;
+            font-size: 12px;
+            text-align: justify;
+        }
+
+        .judulcovid{
+            text-align: center;
+            font-size: 24px;
+        }
+    /* end apa itu covid */
+
+    /* gejala umum COVID-19 */
+
+        .title2{
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .informationGejala{
+            margin: 50px 20px 100px 20px;
+            min-height:400px
+        }
+
+        .img_Covid_batuk{
+            width: 35%;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.batuk{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 110px;
+            margin-left: 40px;
+            position:absolute;
+        }
+
+        .img_Covid_demam{
+            width: 40%;
+            height: auto;
+            margin-top: 30px;
+            margin-left: 200px;
+            position:absolute;
+        }
+
+        h2.demam{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 110px;
+            margin-left: 220px;
+            position:absolute;
+        }
+
+        .img_Covid_sk{
+            width: 40%;
+            height: auto;
+            margin-left: -4px;
+            margin-top:165px;
+            position:absolute;
+        }
+
+        h2.sakitkepala{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 260px;
+            margin-left: 10px;
+            position:absolute;
+        }
+
+        .img_Covid_st{
+            width: 40%;
+            height: auto;
+            margin-top:170px;
+            margin-left: 200px;
+            position:absolute;
+        }
+
+        h2.sakittenggorokan{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 260px;
+            margin-left: 190px;
+            position:absolute;
+        }
+    /* end gejala umum COVID-19 */
+
+    /* penularan COVID */
+        .informationPenularan{
+            margin: 50px 20px 100px 20px;
+            min-height:230px
+        }
+        .title3{
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .img_Covid_salaman{
+            width: 35%;
+            margin-left: 20px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.kotaklangsung{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            margin-left: 10px;
+            margin-top: 80px;
+        }
+
+        .img_Covid_dg{
+            width: 30%;
+            margin-top:90px;
+            margin-left:130px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.makananmentah{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            margin-left: 80px;
+            margin-top: 150px;
+        }
+
+        .img_Covid_kh{
+            width: 30%;
+            margin-top: 10px;
+            margin-left: 240px;
+            height: auto;
+            position:absolute;
+        }
+        
+        h2.hewan{
+            font-size: 15px;
+            margin-left: 230px;
+            margin-top: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    /* end penularan COVID */
+
+    /* pencegahan covid-19 */
+        .informationPencegahan{
+            margin: 50px 20px 100px 20px;
+            min-height:600px
+        }
+        .title4{
+            text-align: center;
+            font-size: 20px; 
+        }
+
+        .img_Covid_ct{
+            width: 35%;
+            margin-left: 30px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.cuciTangan{
+            font-size: 15px;
+            margin-left: 30px;
+            margin-top: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .img_Covid_m{
+            width: 35%;
+            margin-left:210px;
+            margin-top:0px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.masker{
+            font-size: 15px;
+            margin-top: 75px;
+            margin-left: 210px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .img_Covid_kl{
+            width: 35%;
+            margin-left: 15px;
+            margin-top: 150px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.hindariKontaktKangsung{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 220px;
+            margin-left: 20px;
+        }
+
+        .img_Covid_bersin{
+            width: 35%;
+            margin-left: 210px;
+            margin-top:150px;
+            height: auto;
+            position:absolute;
+        }
+
+        h2.tutupiHidungDanMulut{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 220px;
+            margin-top: 220px;
+        }
+    /* end pencegahan covid-19 */
+}

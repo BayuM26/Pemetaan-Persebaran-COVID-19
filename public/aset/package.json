@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "leaflet-easyprint": "^2.1.9"
+  }
+}

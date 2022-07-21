@@ -1,0 +1,25 @@
+@media screen and (max-width:900px) {
+    button.btn-export{
+        width: 125px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    button.btn-export{
+        width: 125px;
+        margin: 20px 20px 20px 20px;
+    }
+    h3.title{
+        margin: 20px 20px 20px 20px;
+        font-size: 30px;
+    }
+    button.btn-input{
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    input.input-search{
+        margin-left:20px;
+        width: 375px;
+    }
+}
+
